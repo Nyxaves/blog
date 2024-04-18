@@ -1,0 +1,17 @@
+{
+  "name": "bloguinho",
+  "version": "1.0.0",
+  "description": "Um Blog para escrever todas suas ideias e experiências, porque não?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nicolle Xavier Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "nodemon": "^3.1.0"
+  }
+}
